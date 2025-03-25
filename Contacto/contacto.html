@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Hotel Los Mangos</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,800;1,800&display=swap">
+</head>
+<body class="body-background">
+    <header>
+        <a href="../index.html" class="titulo">Hotel Los Mangos</a>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../Acerca de/acerca_de.html">Acerca de</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="../Creadores/creadores.html">Creadores</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h1 id="bienvenidos">Contáctanos</h1>
+
+        <section>
+            <h2>Envíanos un mensaje</h2>
+            <form id="contact-form" action="#" method="POST">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required placeholder="Nombre Completo">
+                
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required placeholder="tunombre@ejemplo.com">
+                
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button class="boton" type="submit" aria-placeholder="xd">Enviar</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Nuestra Ubicación</h2>
+            <p>Dirección: 1 km de la zona de surf Punta Mango, a 11 km de la playa El Cuco y a 19 km de la autopista 2.</p>
+            <p>Teléfono: +503 7737-1940</p>
+            <p>Correo Electrónico: info@losmangoshotel.com</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Hotel Los Mangos. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
